@@ -1,0 +1,350 @@
+:root {
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+* {
+    box-sizing: border-box;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+button {
+
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 1050px;
+    margin: 20px auto;
+}
+.container .phase1 {
+
+}
+.container .phase1 .head {
+    text-align: center;
+}
+.container .phase1 .head .logo {
+    width: 50px;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.container .phase1 .head h2 {
+    margin-bottom: 20px;
+}
+.container .phase1 .head h2 + p {
+    color: var(--Grayish-Blue);
+    width: 470px;
+    margin: auto;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+.container .phase1 .buttons {
+    margin: auto;
+    margin-bottom: 50px;
+}
+.container .phase1 .buttons button {
+    color: white;
+    width: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.container .phase1 .buttons button:first-child {
+    background-color: var(--Strong-Cyan);
+}
+.container .phase1 .buttons button:last-child {
+    background-color: var(--Light-Blue)
+}
+.container .phase1 .body {
+
+}
+.container .phase1 .body .title {
+    text-align: center;
+}
+.container .phase1 .body .title h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.container .phase1 .body .title h2 + p {
+    width: 550px;
+    margin: auto;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    color: var(--Grayish-Blue);
+}
+.container .phase1 .body .prev {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+.container .phase1 .body .prev > img {
+    width: 450px;
+}
+.container .phase1 .body .prev .details {
+    width: 500px;
+}
+.container .phase1 .body .prev .details .line {
+    width: 350px;
+}
+.container .phase1 .body .prev .details .line h3 {
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+.container .phase1 .body .prev .details .line h3 + p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: var(--Grayish-Blue);
+    font-size: 14px;
+}
+.container .phase2 .head {
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+.container .phase2 .head h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.container .phase2 .head h2 + p {
+    width: 450px;
+    margin: auto;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 50px;
+    color: var(--Grayish-Blue);
+}
+.container .phase2 .head h2 + p + img {
+    width: 500px;
+}
+.container .phase2 .body .title {
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container .phase2 .body .title h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.container .phase2 .body .title h3 + p {
+    font-size: 13px;
+    color: var(--Grayish-Blue);
+}
+.container .phase2 .plans {
+    display: flex;
+    margin: auto;
+    margin-bottom: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container .phase2 .plans .plan {
+    text-align: center;
+    width: 250px;
+    margin: auto;
+}
+.container .phase2 .plans .plan > img {
+    margin-bottom: 25px;
+    width: 30px;
+}
+.container .phase2 .plans .plan > img + h4 {
+    margin-bottom: 15px;
+}
+.container .phase2 .plans .plan > img + h4 + p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--Grayish-Blue);
+}
+.container .phase2 .brands {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container .phase2 .brands img {
+    width: 100px;
+    margin-bottom: 50px;
+}
+.container .slide {
+    margin: auto;
+    text-align: center;
+}
+.container .slide > h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.container .slide > h3 + p {
+    width: 600px;
+    margin: auto;
+    line-height: 1.6;
+    color: var(--Grayish-Blue);
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.container .buttons button {
+    color: white;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.container .buttons button:first-child {
+    background-color: var(--Strong-Cyan);
+}
+.container .buttons button:last-child {
+    background-color: var(--Light-Blue);
+}
+footer {
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+footer > .logo {
+    width: 50px;
+}
+footer .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+footer .links a {
+    flex-basis: 30%;
+}
+footer .links a:hover {
+    color: var(--Strong-Cyan);
+}
+footer .social {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+footer .social img {
+    width: 20px;
+}
+footer .social img:hover {
+    background-color: var(--Strong-Cyan);
+}
+.attribution {
+    flex-basis: 100%;
+    margin-top: 20px;
+}
+@media (max-width: 767px) {
+    .container {
+        width: 375px;
+    }
+    .container .phase1 .head h2 {
+        width: 250px;
+        margin: auto;
+        /* font-size: 22px; */
+    }
+    .container .phase1 .head h2 + p {
+        width: 275px;
+        font-size: 13px;
+        line-height: 1.4;
+        margin-top: 10px;
+    }
+    .container .phase1 .buttons button {
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .container .phase1 .body .title h2 {
+        font-size: 22px;
+        width: 250px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .container .phase1 .body .title h2 + p {
+        width: 250px;
+      font-size: 15px;
+    }
+    .container .phase1 .body .prev {
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+    .container .phase1 .body .prev > img {
+        width: 300px;
+        margin: auto;
+    }
+    .container .phase2 {
+        margin-top: 250px;
+    }
+    .container .phase2 .head h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin: auto;
+        width: 150px;
+        margin-bottom: 15px;
+    }
+    .container .phase2 .head h2 + p {
+        width: 200px;
+        margin: auto;
+        font-size: 14px;
+        line-height: 1.8;
+        margin-bottom: 50px;
+        color: var(--Grayish-Blue);
+        font-size: 11px;
+    }
+    .container .phase2 .head h2 + p + img {
+        width: 300px;
+    }
+    .container .phase2 .body .title {
+        width: 200px;
+    }
+    .container .phase2 .body .title h3 + p {
+        line-height: 1.7;
+    }
+    .container .phase2 .plans .plan {
+        margin-top: 50px;
+    }
+    .container .phase2 .brands {
+        gap: 50px;
+        flex-direction: column;
+        margin: auto;
+        width: fit-content;
+    }
+    .container .phase2 .brands img {
+        width: fit-content;
+    }
+    .container .slide {
+        width: 300px;
+    }
+    .container .slide > h3 + p {
+        width: 250px;
+        margin-bottom: 50px;
+    }
+    .container .buttons button {
+        width: 250px;
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer .links a {
+        flex-basis: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    footer .social {
+       gap: 50px;
+       margin-top: 20px;
+    }
+}
+.logo {
+    cursor: pointer;
+}
